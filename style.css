@@ -5,16 +5,112 @@ body{
     height: 100vh;
     font-family: 'Oswald';
     font-weight: 400;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 header{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 #subnautica_image_cover{
     background-image: url("/img/subnautica_cover.jpg");
     width: 100%;
-    height: 100%;
+    height: 90%;
     color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(3, 112, 112);
+    height: 10%;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.minor-nav{
+    display: none;
+}
+
+h1{
+    position:absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 110px;
+}
+
+h5{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: 20px;
+}
+
+.block{
+    width: 100vw;
+    height: 100vh;
+}
+
+h2{
+    margin: 5% 0 0 5%;
+}
+
+.special{
+    border: 1px solid rgb(2, 2, 65);
+    width: 15%;
+    height: 50%;
+    padding: 2.5%;
+}
+
+.specials{
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+    align-items: center;
+}
+
+.characters{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.gg{
+    width: 65%;
+    margin-left: 5%;
+}
+
+.gg-image{
+    width: 60%;
+}
+
+.minor-image{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.minor-all{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 80%; */
+}
+
+.minor{
+    text-align: center;
+    border: 1px solid rgb(2, 2, 65);
+    width: 60%;
+    height: 25%;
 }
