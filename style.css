@@ -19,18 +19,44 @@ header{
 }
 
 #subnautica_image_cover{
-    background-image: url("/img/subnautica_cover.jpg");
+    background-image: url("/img/256b2be5a6.png");
+    width: 100%;
+    height: 90%;
+    color: #262545;
+}
+
+#DC_image_cover{
+    background-image: url("/img/52bd594.jpeg");
+    width: 100%;
+    height: 90%;
+    color: rgb(1 40 81);
+}
+
+#DL_image_cover{
+    background-image: url("/img/e364d39d15f4ed95_original.jpg");
     width: 100%;
     height: 90%;
     color: white;
 }
 
+.DCNav{
+    background-color: rgb(1 40 81);
+}
+.DLNAV{
+    background-color: rgb(33, 11, 11);
+}
+
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(3, 112, 112);
+    background-color: #262545;
     height: 10%;
     align-items: center;
+}
+
+#vr{
+    border-left: 1px solid white;
+    height: 50%;
 }
 
 nav a{
@@ -57,19 +83,68 @@ h5{
 }
 
 .block{
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
+    margin-left: 5%;
 }
 
 h2{
-    margin: 5% 0 0 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.info-block {
+    height: max-content;
 }
 
 .special{
     border: 1px solid rgb(2, 2, 65);
     width: 15%;
-    height: 50%;
+    height: 60%;
     padding: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.special-DL{
+    width: 30%;
+    justify-content: flex-start;
+    gap:8%
+}
+
+.special-DC{
+    width: 55%;
+    justify-content: flex-start;
+    gap:8%;
+    border: 0;
+    height: max-content;
+    flex-direction: row;
+
+    padding-bottom: 5%;
+}
+.mechanics-block.DC{
+    height: max-content;
+    margin-bottom: 15%;
+}
+
+h4 ~ img{
+    width: 90%;
+}
+.textggDC{
+    font-size: 26px;  
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 7%;
+}
+.special div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .specials{
@@ -79,20 +154,48 @@ h2{
     align-items: center;
 }
 
+.character-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .characters{
     display: flex;
     justify-content: space-between;
     height: 80%;
 }
 
-.gg{
-    width: 65%;
-    margin-left: 5%;
+
+
+.disklay {
+    padding: 10px 0;
 }
 
-.gg-image{
-    width: 60%;
+.gg{
+    width: max-content;
 }
+
+.gg-image {
+    height: 90%;
+}
+
+.textggsub{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-right: 10%;
+}
+
+.textggDL{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 7%;
+}
+
+
 
 .minor-image{
     width: 100%;
@@ -114,3 +217,7 @@ h2{
     width: 60%;
     height: 25%;
 }
+
+/* .mechanics-block{
+    height: max-content;
+} */
