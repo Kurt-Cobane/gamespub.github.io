@@ -307,3 +307,7 @@ h4 ~ img{
     display: flex;
     justify-content: space-evenly;
 }
+
+.benefits-block {
+    height: fit-content;
+}
