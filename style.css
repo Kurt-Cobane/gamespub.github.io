@@ -24,6 +24,22 @@ header{
     height: 90%;
     color: #262545;
 }
+#base{
+    background-image: url("img/Влияние.jpg");
+    width: 100%;
+    height: 90%;
+    color: #ffffff;
+    background-size: 100vw;
+    background-position: 0px -100px;
+    /* font-kerning: revert; */
+    text-shadow: 0.3rem 0.1rem #0a0851;
+
+}
+
+.base {
+    background-color: #0a0851;
+
+}
 
 #DC_image_cover{
     background-image: url("img/52bd594.jpeg");
@@ -66,6 +82,27 @@ nav{
     align-items: center;
 }
 
+.sub {
+    background-color: #262545;
+
+}
+
+.footer-base {
+    
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #262545; */
+    height: 10%;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+.footer-base a {
+    color: white;
+    /* text-decoration: none; */
+}
+
 #vr{
     border-left: 1px solid white;
     height: 50%;
@@ -96,8 +133,9 @@ h5{
 
 .block{
     width: 90vw;
-    height: 100vh;
+    height: fit-content;
     margin-left: 5%;
+    padding-bottom: 50px;
 }
 
 h2{
@@ -139,7 +177,7 @@ h2{
 }
 .mechanics-block.DC{
     height: max-content;
-    margin-bottom: 15%;
+    /* margin-bottom: 15%; */
 }
 
 h4 ~ img{
@@ -170,6 +208,8 @@ h4 ~ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100vh;
+
 }
 
 .characters{
@@ -233,3 +273,37 @@ h4 ~ img{
 /* .mechanics-block{
     height: max-content;
 } */
+
+.skills-block {
+    height: fit-content;
+    padding-bottom: 50px;
+}
+
+.skill-ul{
+    list-style:circle;
+    font-size: 20px;
+    
+}
+
+.skill{
+    margin: 20px;
+}
+
+.skill b {
+    font-size: 23px;
+}
+
+.skill-li {
+    font-size: 16px;
+    margin: 20px;
+}
+
+.skill-li b {
+    font-size: 18px;
+}
+
+.videos {
+    margin: 50px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
